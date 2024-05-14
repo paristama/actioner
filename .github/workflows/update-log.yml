@@ -4,9 +4,8 @@
 name: Resources
 
 on:
-  push:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "50 * * * *"
 
 jobs:
   build:
