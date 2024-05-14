@@ -29,4 +29,5 @@ jobs:
         with:
           file-path: log.txt
           commit-msg: Update Log file
+          github-token: ${{ secrets.GH_TOKEN }}
           branch: main
